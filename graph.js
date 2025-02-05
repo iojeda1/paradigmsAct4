@@ -2,6 +2,8 @@
 // Activity 4
 
 const graph = {
+    adjacencyList: {}, 
+    
     addNode: function(n) {
 
     }, 
