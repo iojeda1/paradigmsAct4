@@ -1,6 +1,7 @@
 // Isabel Ojeda
 // Activity 4
 
+<<<<<<< HEAD
 class Graph {
     constructor() {
       this.adjacencyList = new Map();
@@ -51,6 +52,12 @@ class Graph {
       // return the results (list of nodes)
       return results;
     }
+=======
+const graph = {
+    adjacencyList: {}, 
+    
+    addNode: function(n) {
+>>>>>>> f555b486d3a3612cc53703d3c065d02338dda838
 
     // activity 5 
     bfs(startNode) { // fifo (level by level)
@@ -80,3 +87,8 @@ class Graph {
     }
 
 
+<<<<<<< HEAD
+=======
+    } 
+}; 
+>>>>>>> f555b486d3a3612cc53703d3c065d02338dda838
